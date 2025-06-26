@@ -7,7 +7,7 @@
 
 .banner{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("img/bkSinterboat.png");
     background-size: cover;
     background-position: center;
@@ -44,8 +44,8 @@
 .navbar ul li::after{
     content: '';
     height: 3px;
-    width: 100%;
-    color: #009688;
+    width: 0%;
+    background: #009688;
     position: absolute;
     left: 0;
     bottom: -10px;
