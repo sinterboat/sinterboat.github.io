@@ -83,7 +83,7 @@ a{
       position: absolute;
       bottom: 10px;
       left: 50%;
-      transform: translateX(-40%) translateY(-10%);
+      transform: translateX(-50%) translateY(-10%);
       width: 200px;
       transition: transform 0.5s ease-out;
       z-index: 1;
@@ -92,7 +92,7 @@ a{
     }
 
     .button-wrapper:hover .piet-image {
-      transform: translateX(-40%) translateY(-120px);
+      transform: translateX(-50%) translateY(-130px);
       height: 200px;
     }
 
