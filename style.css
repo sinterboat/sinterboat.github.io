@@ -5,6 +5,10 @@
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -56,6 +60,42 @@
     width: 100%;
 }
 
+    .button-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
+    .sint-button {
+      color: white;
+      padding: 15px 40px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      margin: 50px;
+      height: 100px;
+      width: 100px;
+    }
+
+    .piet-image {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-40%) translateY(-10%);
+      width: 200px;
+      transition: transform 0.5s ease-out;
+      z-index: 1;
+      pointer-events: none;
+      height: 0;
+    }
+
+    .button-wrapper:hover .piet-image {
+      transform: translateX(-40%) translateY(-120px);
+      height: 200px;
+    }
+
 .content{
     width: 100%;
     position: absolute;
@@ -74,4 +114,26 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+}
+
+.text_bn{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+}
+
+.text_bn_info{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: absolute;
+    left: 110px;
+    top: 160px;
 }
