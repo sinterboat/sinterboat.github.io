@@ -2,6 +2,7 @@
     <head>
         <title>SinterBoat - Contact</title>
         <link rel="stylesheet" href="style.css">
+        <form action="https://api.web3forms.com/submit" method="POST">
     </head>
     <body>
         <div class="banner">
@@ -15,8 +16,8 @@
                     <li><a href="wanneer.html">Wanneer zijn wij er<a/></li>
                 </ul>
             </div>
-            <div class="content-about" style="background: white;">
-              <p style="color: black; font-size: 20px;"><strong>Dag allemaal,<br>
+            <div class="content-about">
+              <p style="color: white; font-size: 20px;"><strong>Dag allemaal,<br>
 Hier spreekt Webmaster Piet.<br>
 Van 3 tot 5 december heet ik jullie van harte welkom aan boord van Le Bateau, om samen<br>
 de verjaardag van Sinterklaas te vieren. De slingers hangen op, de taart staat klaar, en<br>
@@ -28,7 +29,18 @@ We maken er samen een feest van dat je niet snel zal vergeten!<br>
 P.S: De Ticketverkoop gaat pas van start vanaf 15 september, mocht het wat later online<br>
 komen stuur me dan gerust een mailtje.. want het kan zijn dat ik weer eens helemaal<br>
 verstrooid ben en het vergeten ben, tot op de boot!</strong></p>
+
+                  <div class="Contact-Form">
+                    <h2>CONTACT</h2>
+                    <input type="hidden" name="access_key" value="700d1fc5-7e85-45c8-bd77-b8fdfcc03045">
+                    <input type="text" name="name" placeholder="Jouw Naam" class="contact-input" required>
+                    <input type="email" name="email" placeholder="Jouw Email" class="contact-input" required>
+                    <textarea name="message" placeholder="Jouw Bericht" class="contact-input" required></textarea>
+                    <button type="submit">Stuur</button>
+                </div>
             </div>
+            
+            
         </div>
     </body>
 </html>
