@@ -159,12 +159,16 @@ body{
 .content-about h1 {
     font-size: 70px;
     margin-top: 80px;
+    position: relative;
+    left: 25px;
 }
 .content-about p {
+    position: relative;
+    left: 25px;
     margin: 20px auto;
     font-weight: 100px;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 50px;
 }
 
 .contact-input{
@@ -222,4 +226,3 @@ body{
     opacity: 1;
     text-align: center;
 }
-
